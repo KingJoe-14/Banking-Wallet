@@ -1,4 +1,4 @@
-package com.banking.wallet.wallet
-
-class WalletRepository {
-}
+//package com.banking.wallet.wallet
+//
+//class WalletRepository {
+//}
