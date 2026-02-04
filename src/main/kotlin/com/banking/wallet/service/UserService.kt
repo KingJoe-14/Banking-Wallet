@@ -18,7 +18,6 @@ class UserService(
 
     fun createUser(request: CreateUserRequest): UserResponse {
 
-        // Check if email already exists
         if (userRepository.existsByEmail(request.email)) {
             throw IllegalArgumentException("Email already registered")
         }
